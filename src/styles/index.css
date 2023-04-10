@@ -1,3 +1,16 @@
-/* 
-    General Styles
-*/
+body {
+    background-color:whitesmoke;
+    overflow-x: hidden;
+}
+
+.card {
+    box-shadow: 4px 4px 5px grey;
+}
+
+.card-img-overlay{
+    background-color: rgb(33,37,41, 0.5);
+}
+
+.card-img-overlay:hover{
+    filter: brightness(25);
+}
